@@ -1,0 +1,8 @@
+com\selenium\maven\argosbdd\ShoppingResults\ShoppingResults.class
+com\selenium\maven\argosbdd\EndToEndTest.class
+com\selenium\maven\argosbdd\DriverHelper\DriverHelper.class
+com\selenium\maven\argosbdd\Hooks\Hooks.class
+com\selenium\maven\argosbdd\Search_and_Utils\RandomNumber.class
+com\selenium\maven\argosbdd\Results\ResultsPage.class
+com\selenium\maven\argosbdd\RegressionTest.class
+com\selenium\maven\argosbdd\Search_and_Utils\SearchPage.class

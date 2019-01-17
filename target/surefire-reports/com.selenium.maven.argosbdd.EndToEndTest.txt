@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.selenium.maven.argosbdd.EndToEndTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 134.472 s <<< FAILURE! - in com.selenium.maven.argosbdd.EndToEndTest
+searchProductAndAddToBasket(com.selenium.maven.argosbdd.EndToEndTest)  Time elapsed: 68.222 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Element is not clickable at point (639, 627.0499877929688). Other element would receive the click: <a href="/webapp/wcs/stores/servlet/ArgosGSGiftModeExitCmd?action=OrderItemDisplay?langId=110&amp;storeId=10151&amp;updateTrolley=true" class="button button--full xs-hidden sm-block"></a>
+Command duration or timeout: 143 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Chakra-PC', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: eddfcafb-e5d1-4e56-8774-1bb63908982a
+	at com.selenium.maven.argosbdd.EndToEndTest.searchProductAndAddToBasket(EndToEndTest.java:26)
+

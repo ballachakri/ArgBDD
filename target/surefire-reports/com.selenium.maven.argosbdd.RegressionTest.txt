@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.selenium.maven.argosbdd.RegressionTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3,476.524 s <<< FAILURE! - in com.selenium.maven.argosbdd.RegressionTest
+byReviewTest(com.selenium.maven.argosbdd.RegressionTest)  Time elapsed: 100.657 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+Element is no longer attached to the DOM
+Command duration or timeout: 212 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Chakra-PC', ip: '192.168.0.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 53c1113a-de7a-4454-a534-c60ecfbfed6e
+	at com.selenium.maven.argosbdd.RegressionTest.byReviewTest(RegressionTest.java:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: 
+Element is no longer attached to the DOM
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Chakra-PC', ip: '192.168.0.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+
